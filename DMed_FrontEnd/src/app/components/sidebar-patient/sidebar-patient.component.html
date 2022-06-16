@@ -1,0 +1,59 @@
+<aside class="h-[calc(100vh_-_70px)] w-64 bg-light" aria-label="Sidebar">
+  <div class="overflow-y-auto py-12 px-3">
+    <ul class="">
+      <li class="px-4">
+        <a [routerLink]="['/']" class="flex items-center mb-12 p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+          <span class="font-semibold ml-3">Tableau de bord</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="pt-4 space-y-1 border-t-2 border-slate-200">
+      <span class="text-sm text-gray px-2">Génerale</span>
+      <li class="px-4">
+        <a [routerLink]="['/information']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+          <span class="font-semibold flex-1 ml-3 whitespace-nowrap">Information</span>
+        </a>
+      </li>
+      <li class="px-4">
+        <a [routerLink]="['/appointments']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+          <span class="font-semibold flex-1 ml-3 whitespace-nowrap">Rendez-vous</span>
+        </a>
+      </li>
+      <li class="px-4">
+        <a [routerLink]="['/doctors']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
+          <span class="font-semibold ml-3">Médecins</span>
+        </a>
+      </li>
+    </ul>
+    <ul class="pt-4 mt-12 space-y-1 border-t-2 border-slate-200">
+      <span class="text-sm text-gray px-2">Médical</span>
+      <li class="px-4">
+        <a [routerLink]="['/maladies']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
+          <span class="font-semibold ml-3">Maladies</span>
+        </a>
+      </li>
+      <!-- <li class="px-4">
+        <a [routerLink]="['/user/bob']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+          <span class="font-semibold flex-1 ml-3 whitespace-nowrap">Allergies</span>
+        </a>
+      </li> -->
+      <li class="px-4">
+        <a [routerLink]="['/medicaments']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
+          <span class="font-semibold ml-3">Médicaments</span>
+        </a>
+      </li>
+      <li class="px-4">
+        <a [routerLink]="['/analysis']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
+          <span class="font-semibold ml-3">Analyses</span>
+        </a>
+      </li>
+      <li class="px-4">
+        <a [routerLink]="['/controls']" class="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group">
+          <span class="font-semibold ml-3">Contrôles</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</aside>
+
+

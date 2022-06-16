@@ -1,0 +1,23 @@
+<div class="flex">
+  <div class="flex-1">
+    <app-card-patient></app-card-patient>
+  </div>
+  <div class="flex-1 flex justify-between items-stretch">
+    <app-card-patient-statistic></app-card-patient-statistic>
+    <app-card-patient-statistic></app-card-patient-statistic>
+    <app-card-patient-statistic></app-card-patient-statistic>
+  </div>
+</div>
+<div class="flex justify-between items-center mb-8 mt-10">
+  <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Maladies</h5>
+  <a [routerLink]="['/maladies']" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+    Voir tous
+  </a>
+</div>
+<div class="shadow-md">
+  <app-maladie-head></app-maladie-head>
+  <app-maladie-item></app-maladie-item>
+  <app-maladie-item-test></app-maladie-item-test>
+  <app-maladie-item></app-maladie-item>
+  <app-maladie-item-test></app-maladie-item-test>
+</div>
